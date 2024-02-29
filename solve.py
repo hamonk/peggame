@@ -128,6 +128,7 @@ for x in range(1, int(sys.argv[2])):
     summary.append(len(positions))
 
 # dead ends
+print("### dead ends ###")
 for x in deads.keys():
     print(f"{x}: {len(deads[x])}")
 
